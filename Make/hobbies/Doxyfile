@@ -1,0 +1,14 @@
+# Project name
+PROJECT_NAME           = Hobbies
+
+# Language: Spanish
+OUTPUT_LANGUAGE        = Spanish
+
+# Show private members
+EXTRACT_PRIVATE        = YES
+
+# Show C source files
+SOURCE_BROWSER         = YES
+
+# Do not generate LaTeX documentation
+GENERATE_LATEX         = NO

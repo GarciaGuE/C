@@ -1,0 +1,76 @@
+\hypertarget{functions_8h}{}\doxysection{Referencia del Archivo functions.\+h}
+\label{functions_8h}\index{functions.h@{functions.h}}
+
+
+We have the following functions\+: allocate\+Matrix-\/$>$Function responsible for reserving memory for an array of nrows and ncolumns. fill\+Matrix-\/$>$Function to enter the integers we want print\+Matrix-\/$>$Function to print the elements of the matrix on the screen count\+Divisibles-\/$>$Function that, through parameters passed by reference, returns the number of elements divisible by 3 in the matrix and the sum of the latter. free\+Matrix-\/$>$Free the memory reserve of the matrix.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+Dependencia gráfica adjunta para functions.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{functions_8h__incl}
+\end{center}
+\end{figure}
+Gráfico de los archivos que directa o indirectamente incluyen a este archivo\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{functions_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{functions_8h_a6261857baaf4211ff22444cbe3a2f1d0}{allocate\+Matrix}} (int rows, int columns)
+\item 
+\mbox{\Hypertarget{functions_8h_a394c9ce8f028c3ec9b3a9ca86cf7f565}\label{functions_8h_a394c9ce8f028c3ec9b3a9ca86cf7f565}} 
+void {\bfseries fill\+Matrix} (int $\ast$$\ast$matrix, int rows, int columns)
+\item 
+\mbox{\Hypertarget{functions_8h_a5e8dade3b64602bb79db497907c18b08}\label{functions_8h_a5e8dade3b64602bb79db497907c18b08}} 
+void {\bfseries print\+Matrix} (int $\ast$$\ast$matrix, int rows, int columns)
+\item 
+\mbox{\Hypertarget{functions_8h_a84b3d734dce1c48dde53c6cd677eb7c6}\label{functions_8h_a84b3d734dce1c48dde53c6cd677eb7c6}} 
+void {\bfseries count\+Divisibles} (int $\ast$$\ast$matrix, int rows, int columns, int $\ast$d, int $\ast$sum)
+\item 
+\mbox{\Hypertarget{functions_8h_ac60938bedccf2a1ca1c7a04440cac8d9}\label{functions_8h_ac60938bedccf2a1ca1c7a04440cac8d9}} 
+void {\bfseries free\+Matrix} (int $\ast$$\ast$$\ast$matrix, int rows)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+We have the following functions\+: allocate\+Matrix-\/$>$Function responsible for reserving memory for an array of nrows and ncolumns. fill\+Matrix-\/$>$Function to enter the integers we want print\+Matrix-\/$>$Function to print the elements of the matrix on the screen count\+Divisibles-\/$>$Function that, through parameters passed by reference, returns the number of elements divisible by 3 in the matrix and the sum of the latter. free\+Matrix-\/$>$Free the memory reserve of the matrix. 
+
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{functions_8h_a6261857baaf4211ff22444cbe3a2f1d0}\label{functions_8h_a6261857baaf4211ff22444cbe3a2f1d0}} 
+\index{functions.h@{functions.h}!allocateMatrix@{allocateMatrix}}
+\index{allocateMatrix@{allocateMatrix}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{allocateMatrix()}{allocateMatrix()}}
+{\footnotesize\ttfamily int$\ast$$\ast$ allocate\+Matrix (\begin{DoxyParamCaption}\item[{int}]{rows,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em rows=number} & of rows of the parameters \\
+\hline
+{\em columns=number} & of rows of the parameters \\
+\hline
+{\em Matrix=} & Matrix that we are going to write \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Autor}
+Emilio Garcia Gutierrez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+04/13/2020 
+\end{DoxyDate}
+\begin{DoxyVersion}{Versión}
+1.\+0 
+\end{DoxyVersion}
+
+
+Definición en la línea 7 del archivo functions.\+c.
+

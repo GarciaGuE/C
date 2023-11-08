@@ -1,0 +1,6 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="node1" title="Program body where user input is obtained, and results from the functions are returned." alt="" coords="52,5,119,32"/>
+<area shape="rect" id="node2" href="$functions_8h.html" title="We have the following functions: allocateMatrix&#45;&gt;Function responsible for reserving memory for an arr..." alt="" coords="38,80,133,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,72,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="97,155,167,181"/>
+</map>

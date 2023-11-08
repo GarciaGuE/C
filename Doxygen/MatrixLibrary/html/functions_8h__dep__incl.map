@@ -1,0 +1,5 @@
+<map id="functions.h" name="functions.h">
+<area shape="rect" id="node1" title="We have the following functions: allocateMatrix&#45;&gt;Function responsible for reserving memory for an arr..." alt="" coords="57,5,151,32"/>
+<area shape="rect" id="node2" href="$functions_8c.html" title="Functions used in the main program (explained in &quot;functions.h&quot;)" alt="" coords="5,80,99,107"/>
+<area shape="rect" id="node3" href="$main_8c.html" title="Program body where user input is obtained, and results from the functions are returned." alt="" coords="123,80,189,107"/>
+</map>
